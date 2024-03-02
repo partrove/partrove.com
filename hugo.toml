@@ -1,0 +1,90 @@
+# Example config: https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/config.yml
+baseURL = "https://partrove.com/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh"
+title = "ParTrove"
+theme = [ "PaperMod" ]
+paginate = 8
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+mainsections = [ "posts", "papermod" ]
+
+[params]
+env = "production"
+description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+author = "ParTrove"
+defaultTheme = "light"
+disableThemeToggle = true
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
+disableSpecial1stPost = true
+images = [ "images/papermod-cover.png" ]
+
+  # [params.homeInfoParams]
+  # Title = "ParTrove 🎁"
+  # Content = "👋 Welcome"
+
+  # [[params.socialIcons]]
+  # name = "Twitter"
+  # title = "Twitter"
+  # url = "https://twitter.com/partrove"
+
+  [params.assets]
+  disableHLJS = true
+
+  [params.label]
+  text = "ParTrove"
+
+[languages.zh]
+languageName = "中文"
+weight = 1
+
+[menus]
+  [[menus.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "archives"
+  weight = 5
+
+  [[menus.main]]
+  identifier = "tags"
+  name = "标签"
+  url = "tags"
+  weight = 6
+
+  [[menus.main]]
+  identifier = "search"
+  name = "搜索"
+  url = "search"
+  weight = 7
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[minify]
+disableXML = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
