@@ -1,7 +1,7 @@
 +++
 title = 'Flannel 绑定网卡流程'
 date = 2024-03-06T19:00:40+08:00
-draft = true
+draft = false
 isCJKLanguage = true
 +++
 
