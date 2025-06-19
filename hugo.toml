@@ -1,3 +1,27 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://partrove.com/'
+languageCode = 'zh-CN'
+title = '互联网收藏夹'
+theme = 'Onyx'
+
+[languages]
+  [languages.zh]
+    languageCode = 'zh-CN'
+    languageDirection = 'ltr'
+    LanguageName = 'Chinese'
+    weight = 1
+
+[pagination]
+  pagerSize = 6
+
+[params]
+  useCDN = true
+  [params.seline]
+    token = "f43214b3d14c111"
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/partrove/Onyx"
+[[params.social]]
+name = "X"
+icon = "x"
+url = "https://x.com/partrove"
