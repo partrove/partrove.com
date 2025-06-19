@@ -1,0 +1,3 @@
+[submodule "themes/Onyx"]
+	path = themes/Onyx
+	url = https://github.com/partrove/Onyx
